@@ -1,0 +1,20 @@
+\begin{pycode}
+import sympy as sp
+
+#dados iniciais
+m=6 #começando com um hexágono regular
+l=1 #lado do hexágono
+
+#aproximação da área usando um polígono de n lados inscritos no círculo
+print(r"\begin{tabular}{c|c|c|c|c|c}")
+print(r" n &lados & $h_n$ & $l_n$ & perímetro & circunferência \\ \hline")
+for n in range(4):
+ h=sp.sqrt(1-l**2/4) #altura de cada triângulo dado o lado
+ l=sp.sqrt(l**2/4+(1-h)**2) #lado do polígono da próxima iteração
+ m=2*m  #número de lados do polígono seguinte
+ p=m*l  #perímetro do polígono de n lados
+ n+=1
+ print(r"",n,"&",m,"&",h,"&",l,"&",p,"&",p/2)
+ print(r"\\")
+print(r"\end{tabular}")
+\end{pycode}

@@ -1,0 +1,106 @@
+=>PYTHONTEX#py#default#default#0#code####area-circulo.tex#69#
+import sympy as sp
+
+#dados iniciais
+m=6 #começando com um hexágono regular
+l=1 #lado do hexágono
+
+#aproximação da área usando um polígono de n lados inscritos no círculo
+print(r"\begin{tabular}{c|c|c}")
+print(r" n &  $A_n$ & erro \\ \hline")
+for n in range(10):
+ h=sp.sqrt(1-l**2/4) #altura de cada triângulo dado o lado
+ l=sp.sqrt(l**2/4+(1-h)**2) #lado do polígono da próxima iteração
+ m=2*m  #número de lados do polígono seguinte
+ p=m*l  #perímetro do polígono de n lados
+ c=p/2
+ n+=1
+ print(r" ",m,"&",p/2,"&",sp.pi.evalf()-c,r"\\")
+print(r"\end{tabular}")
+=>PYTHONTEX#py#default#defaultverb#0#verbatim####def_integral.tex#287#
+import sympy as sp
+
+x = sp.symbols('x') #variável
+f=sp.sin(x) #função
+
+sp.integrate(f,(x,0,sp.pi)) #integral definida
+=>PYTHONTEX#py#default#default#1#code####def_integral.tex#297#
+import sympy as sp
+
+x = sp.symbols('x') #variável
+f=sp.sin(x) #função
+intf2=sp.integrate(f,(x,0,sp.pi)) #integral definida
+intf=sp.integrate(f,x)
+=>PYTHONTEX#py#default#default#2#i####def_integral.tex#306#
+sp.latex(f)
+=>PYTHONTEX#py#default#default#3#i####def_integral.tex#306#
+sp.latex(intf)
+=>PYTHONTEX#py#default#default#4#i####def_integral.tex#306#
+sp.latex(intf2)
+=>PYTHONTEX#py#default#defaultverb#1#verbatim####int_indefinida_subst.tex#23#
+import sympy as sp
+
+x = sp.symbols('x') #variável
+f=1/x #função
+g=1/(1+x**2) #função
+intf=sp.integrate(f,x) #integral indefinida
+intg=sp.integrate(g,x) #integral indefinida
+=>PYTHONTEX#py#default#default#5#code####int_indefinida_subst.tex#34#
+import sympy as sp
+x = sp.symbols('x') #variável
+f=1/x #função
+g=1/(1+x**2) #função
+intf=sp.integrate(f,x) #integral indefinida
+intg=sp.integrate(g,x) #integral indefinida
+=>PYTHONTEX#py#default#default#6#i####int_indefinida_subst.tex#43#
+sp.latex(intf)
+=>PYTHONTEX#py#default#default#7#i####int_indefinida_subst.tex#43#
+sp.latex(intg)
+=>PYTHONTEX#py#default#defaultverb#2#verbatim####int_frac_parc.tex#26#
+from sympy import *
+
+x=symbols('x')
+
+integrate((2*x**3-4*x**2-x-3)/(x**2-2*x-3),x)
+=>PYTHONTEX#py#default#default#8#code####int_frac_parc.tex#34#
+from sympy import *
+
+x=symbols('x')
+
+int=integrate((2*x**3-4*x**2-x-3)/(x**2-2*x-3),x)
+=>PYTHONTEX#py#default#default#9#i####int_frac_parc.tex#41#
+sp.latex(int)
+=>PYTHONTEX#py#default#defaultverb#3#verbatim####int_frac_parc.tex#47#
+from sympy import *
+
+apart((2*x**3-4*x**2-x-3)/(x**2-2*x-3),x)
+=>PYTHONTEX#py#default#default#10#code####int_frac_parc.tex#53#
+from sympy import *
+frac=apart((2*x**3-4*x**2-x-3)/(x**2-2*x-3),x)
+=>PYTHONTEX#py#default#default#11#i####int_frac_parc.tex#57#
+latex(frac)
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-integral
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

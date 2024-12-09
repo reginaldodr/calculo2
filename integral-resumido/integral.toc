@@ -1,0 +1,4 @@
+\babel@toc {brazilian}{}\relax 
+\beamer@sectionintoc {1}{A Integral}{3}{0}{1}
+\beamer@sectionintoc {2}{Técnicas de integração}{32}{0}{2}
+\beamer@sectionintoc {3}{Aplicações da Integral}{52}{0}{3}
