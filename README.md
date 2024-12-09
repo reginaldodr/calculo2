@@ -4,6 +4,8 @@ Slides usados nas aulas da disciplina de Cálculo II para o curso de Ciências d
 
 Estes slides foram produzidos usando o Beamer, uma classe do LATEX para criação de apresentações de slides.
 
+[Integração](integral-resumido/integral.pdf)
+
 [EDO](edo-2024/edo.pdf)
 
 Para mais detalhes sobre as turmas e outros materiais desta disciplina podem ser encotrados aqui
