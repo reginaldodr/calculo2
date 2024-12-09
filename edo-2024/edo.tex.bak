@@ -1,0 +1,156 @@
+\documentclass[envcountsect]{beamer}
+\usepackage[latin1]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsthm,amssymb}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{pstricks}
+\usepackage{syntonly}
+
+
+
+%\syntaxonly
+%\includeonly{aplicacoes}%
+%\usebackgroundtemplate{\includegraphics{calculus2.eps}}
+
+
+\definecolor{estrutura}{RGB}{110, 139, 61}
+\definecolor{darkolivegreen}{RGB}{85, 107, 47}
+\definecolor{palegreen}{RGB}{152, 251, 152}
+\definecolor{DarkSeaGreen}{RGB}{143, 188, 143}
+\definecolor{lightyellow}{RGB}{255, 255, 224}
+
+
+\usetheme{Singapore}
+
+
+
+
+
+\setbeamertemplate{blocks}[rounded][shadow=true] %rounded blocks
+%\setbeamercolor*{block body}{bg=lightyellow}
+%\setbeamercolor*{block title}{fg=white, bg=darkolivegreen}
+%\usetheme[]{Copenhagen} %apenas um dos muitos temas disponíveis
+\usecolortheme[RGB={110, 139, 61}]{structure}
+%\usecolortheme[RGB={110,134,97}]{structure}
+%\setbeamercolor{normal text}{bg=green!5}
+\setbeamertemplate{theorems}[numbered]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{nada}{Nada}
+
+\newtheorem{defin}[nada]{Defini\c c\~ao}
+
+\newtheorem{prop}[nada]{Proposi\c c\~ao}
+
+\newtheorem{corol}[nada]{Corol\'ario}
+
+\newtheorem{teo}[nada]{Teorema}
+
+\newtheorem{lema}[nada]{Lema}
+
+\newtheorem{exe}{Exemplo}
+
+\newtheorem{outline}{\timesbold outline rem proof}
+
+\newtheorem{obs}[nada]{Observação}
+\newtheorem{afir}{Afirmação}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\cqd}{\hfill \framebox[7pt]{} \mbox{} \medskip}
+\newcommand{\dem}{\noindent {\bf Demonstra\c c\~ao:}}
+\newcommand{\dest}{\textcolor{blue}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\vect}[1]{\overrightarrow{#1}}
+\newcommand{\vt}[1]{\overrightarrow{#1}}
+\newcommand{\dt}{\textcolor[rgb]{0.41,0.35,0.80}}
+\newcommand{\ang}{\widehat}
+\newcommand{\n}[1]{\|#1\|}
+\newcommand{\pe}[2]{\langle #1,#2\rangle}
+\newcommand{\sen}{\operatorname{sen}} 
+\newcommand{\tg}{\operatorname{tg}}     
+\newcommand{\proj}{\operatorname{proj}}
+\newcommand{\pv}[2]{\vt{#1}\times \vt{#2}}
+\newcommand{\pmt}[3]{[\vt{#1},\vt{#2},\vt{#3}]}
+\newcommand{\ex}{\textcolor{structure}{\large{Exemplo\ \ }}}
+\newcommand{\dps}{\displaystyle}
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\tgh}{\operatorname{tgh}}
+\newcommand{\sech}{\operatorname{sech}}
+\newcommand{\fm}{\textordfeminine}
+\newcommand{\mc}{\textordmasculine}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\begin{document}
+
+\setbeamercovered{transparent}
+\title[calc2]{ Cálculo II\\ }
+\subject{Equações Diferenciais Ordinárias}
+\author[Reginaldo]{Prof. Reginaldo Demarque da Rocha\\}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\pgfdeclareimage[]{logo}{uff}
+%\logo{\pgfuseimage{logo}}
+
+\logo{\includegraphics[scale=0.1]{logo.eps}}
+
+
+\institute{Universidade Federal Fluminense\\
+Polo Universitário de Rio das Ostras -- PURO\\
+Instituto de Ciência e Tecnologia -- ICT\\
+Departamento de Física e Matemática -- RFM  \\
+}
+\date{ }
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% sumario  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frame{
+ \frametitle{Sumário}
+ \tableofcontents
+}
+
+
+
+\AtBeginSection[]
+{
+ \begin{frame}
+
+  \frametitle{Sumário}
+  \tableofcontents[currentsection]
+
+ \end{frame}}
+
+\include{intro}
+\include{1a_ordem}
+\include{2a_ordem_linear}
+
+
+
+\end{document}
+
+
+
+\begin{frame}
+\frametitle{ }
+\begin{scriptsize}
+
+\uncover<1->{ }
+
+\end{scriptsize}
+\end{frame}
+
+
+
