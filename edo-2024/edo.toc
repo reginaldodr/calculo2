@@ -1,7 +1,7 @@
 \babel@toc {brazilian}{}\relax 
 \beamer@sectionintoc {1}{EDO's}{3}{0}{1}
 \beamer@sectionintoc {2}{EDO's de 1\textordfeminine ordem}{6}{0}{2}
-\beamer@sectionintoc {3}{EDO's de 2\textordfeminine ordem lineares }{31}{0}{3}
-\beamer@sectionintoc {4}{Vibra\c c\~oes Mec\^anicas Livres}{47}{0}{4}
-\beamer@subsectionintoc {4}{1}{Vibra\c c\~oes Livres}{47}{0}{4}
-\beamer@subsectionintoc {4}{2}{Vibra\c c\~oes Livres Amortecidas}{51}{0}{4}
+\beamer@sectionintoc {3}{EDO's de 2\textordfeminine ordem lineares }{36}{0}{3}
+\beamer@sectionintoc {4}{Vibrações Mecânicas Livres}{51}{0}{4}
+\beamer@subsectionintoc {4}{1}{Vibrações Livres}{51}{0}{4}
+\beamer@subsectionintoc {4}{2}{Vibrações Livres Amortecidas}{55}{0}{4}

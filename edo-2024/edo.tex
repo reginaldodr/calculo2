@@ -1,7 +1,10 @@
 \documentclass[envcountsect,usenames,dvipsnames,aspectratio=43]{beamer}
 
+
+\usepackage{pythontex} 
 \usefonttheme[onlymath]{serif}
-\usepackage[latin1]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8x]{inputenc}
 \usepackage[brazilian]{babel}
 \usepackage{amsthm,amssymb}
 \usepackage{graphicx}
@@ -16,7 +19,7 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% gráfico do coseno nas vibrações mecânicas
+% grÃ¡fico do coseno nas vibraÃ§Ãµes mecÃ¢nicas
 \usepackage{pgfplots}
 \pgfplotsset{compat=newest}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -27,11 +30,16 @@
 
 
 \usetheme{Madrid}
+\usecolortheme{beaver}
 
 \setbeamertemplate{theorems}[numbered]
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\setbeamertemplate{enumerate items}[circle]
+
 \newtheorem{nada}{Nada}
 
 \newtheorem{defin}[nada]{Defini\c c\~ao}
@@ -48,8 +56,8 @@
 
 \newtheorem{outline}{\timesbold outline rem proof}
 
-\newtheorem{obs}[nada]{Observação}
-\newtheorem{afir}{Afirmação}
+\newtheorem{obs}[nada]{ObservaÃ§Ã£o}
+\newtheorem{afir}{AfirmaÃ§Ã£o}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -61,10 +69,10 @@
 	\def\inserttheoremblockenv{alertblock}  
 }
 \theoremstyle{exercicio}
-\newtheorem*{exer}{\includegraphics[scale=0.06]{w-brainb.png} Exercício}
+\newtheorem*{exer}{\includegraphics[scale=0.06]{w-brainb.png} ExercÃ­cio}
 \makeatother
 
-\newtheorem*{casa}{\includegraphics[scale=0.035]{w-homework.png} Para Casa}
+\newtheorem{casa}{\includegraphics[scale=0.035]{w-homework.png} Para Casa}
 \makeatother
 
 
@@ -134,8 +142,8 @@
 \begin{document}
 
 %\setbeamercovered{transparent}
-\title[cálculo II: EDO]{ Cálculo II\\
-	\normalsize{Equações Diferenciais Ordinárias e Aplicações}}
+\title[cÃ¡lculo II: EDO]{ CÃ¡lculo II\\
+	\normalsize{EquaÃ§Ãµes Diferenciais OrdinÃ¡rias e AplicaÃ§Ãµes}}
 \author[Prof. Reginaldo Demarque]{Prof. Reginaldo Demarque}
 
 
@@ -151,8 +159,8 @@
 
 \institute[UFF/RCN]{\includegraphics[scale=0.4]{sol-logistico-capa.png}\\
 	Universidade Federal Fluminense\\
-Instituto de Humanidades e Saúde -- RHS\\
-Departamento de Ciências da Natureza -- RCN  \\
+Instituto de Humanidades e SaÃºde -- RHS\\
+Departamento de CiÃªncias da Natureza -- RCN  \\
 Campus de Rio das Ostras
 	}
 \date[{\color{orange} \today}]{ }
@@ -163,7 +171,7 @@ Campus de Rio das Ostras
 %%%%%%%%%%%%%%%%%%%%%%%%%% sumario  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \frame{
- \frametitle{Sumário}
+ \frametitle{SumÃ¡rio}
  \tableofcontents
 }
 
@@ -173,7 +181,7 @@ Campus de Rio das Ostras
 %{
 % \begin{frame}
 %
-%  \frametitle{Sumário}
+%  \frametitle{SumÃ¡rio}
 %  \tableofcontents[currentsection]
 %
 % \end{frame}
@@ -181,22 +189,12 @@ Campus de Rio das Ostras
 
 \include{intro}
 \include{1a_ordem}
+\include{complexos}
 \include{2a_ordem_linear}
 
 
 
 \end{document}
-
-
-
-\begin{frame}
-\frametitle{ }
-\begin{scriptsize}
-
-\uncover<1->{ }
-
-\end{scriptsize}
-\end{frame}
 
 
 

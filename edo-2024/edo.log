@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  9 DEC 2024 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  10 DEC 2024 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,22 +630,568 @@ ve/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive
 \beamer@dima=\dimen292
 \beamer@dimb=\dimen293
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))
+) (/usr/share/texlive/texmf-dist/tex/latex/pythontex/pythontex.sty
+Package: pythontex 2021/06/06 v0.18 execute and typeset Python code and other l
+anguages
+(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvr
+b
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count336
+\FV@InFile=\read3
+\FV@TabBox=\box76
+\c@FancyVerbLine=\count337
+\FV@StepNumber=\count338
+\FV@OutFile=\write5
+) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count339
+\output=\toks46
+\linenoprevgraf=\count340
+\linenumbersep=\dimen294
+\linenumberwidth=\dimen295
+\c@linenumber=\count341
+\c@pagewiselinenumber=\count342
+\c@LN@truepage=\count343
+\c@internallinenumber=\count344
+\c@internallinenumbers=\count345
+\quotelinenumbersep=\dimen296
+\bframerule=\dimen297
+\bframesep=\dimen298
+\bframebox=\box77
+\linenoamsmath@ams@eqpen=\count346
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count347
+\c@FancyVerbBufferIndex=\count348
+\c@FancyVerbBufferLength=\count349
+\c@FancyVerbBufferLine=\count350
+\c@FV@oldbufferlength=\count351
+\c@FV@TrueTabGroupLevel=\count352
+\c@FV@TrueTabCounter=\count353
+\FV@TabBox@Group=\box78
+\FV@TmpLength=\skip65
+\c@FV@HighlightLinesStart=\count354
+\c@FV@HighlightLinesStop=\count355
+\FV@LoopCount=\count356
+\FV@NCharsBox=\box79
+\FV@BreakIndent=\dimen299
+\FV@BreakIndentNChars=\count357
+\FV@BreakSymbolSepLeft=\dimen300
+\FV@BreakSymbolSepLeftNChars=\count358
+\FV@BreakSymbolSepRight=\dimen301
+\FV@BreakSymbolSepRightNChars=\count359
+\FV@BreakSymbolIndentLeft=\dimen302
+\FV@BreakSymbolIndentLeftNChars=\count360
+\FV@BreakSymbolIndentRight=\dimen303
+\FV@BreakSymbolIndentRightNChars=\count361
+\c@FancyVerbLineBreakLast=\count362
+\FV@LineBox=\box80
+\FV@LineIndentBox=\box81
+\c@FV@BreakBufferDepth=\count363
+\FV@LineWidth=\dimen304
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/te
+xlive/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count364
+\xs_countb=\count365
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks47
+\pgfopts@list@add@b@toks=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
+Package newfloat Info: Unsupported document class, or \@chapter 
+(newfloat)             was already redefined by another package.
+Package newfloat Info: \@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@chapter [
+{#1}]{#2}.
+Package newfloat Info: \Hy@org@chapter = undefined.
+Package newfloat Info: \algocf@original@chapter = undefined.
+) (/usr/share/texlive/texmf-dist/tex/latex/currfile/currfile.sty
+Package: currfile 2022/10/10 v0.8 Provides the file path elements of the curren
+t input file
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2022/10/25 v0.8b Hooks for input files
+(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
+))
+\c@currfiledepth=\count366
+)
+\pytx@codefile=\write6
+\openout6 = `edo.pytxcode'.
+
+\c@pytx@FancyVerbLineTemp=\count367
+\c@pytx@py@default@default=\count368
+\c@pytx@pycon@default@default=\count369
+\c@pytx@sympy@default@default=\count370
+\c@pytx@sympycon@default@default=\count371
+\c@pytx@pylab@default@default=\count372
+\c@pytx@pylabcon@default@default=\count373
 ) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (/u
 sr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks46
-\inpenc@posthook=\toks47
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
-File: latin1.def 2021/02/14 v1.3d Input encoding file
-)) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+\inpenc@prehook=\toks49
+\inpenc@posthook=\toks50
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2023/11/09 UCS: Input encoding UTF-8
+
+Package ucs Info: utf8x disabled, assuming standard utf8 processing
+(ucs)             load ucs package to force utf8x processing.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2022/06/07 v1.3c UTF-8 support
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01C4 (decimal 452)
+   defining Unicode char U+01C5 (decimal 453)
+   defining Unicode char U+01C6 (decimal 454)
+   defining Unicode char U+01C7 (decimal 455)
+   defining Unicode char U+01C8 (decimal 456)
+   defining Unicode char U+01C9 (decimal 457)
+   defining Unicode char U+01CA (decimal 458)
+   defining Unicode char U+01CB (decimal 459)
+   defining Unicode char U+01CC (decimal 460)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02D9 (decimal 729)
+   defining Unicode char U+02DB (decimal 731)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+1E0D (decimal 7693)
+   defining Unicode char U+1E1E (decimal 7710)
+   defining Unicode char U+1E1F (decimal 7711)
+   defining Unicode char U+1E25 (decimal 7717)
+   defining Unicode char U+1E30 (decimal 7728)
+   defining Unicode char U+1E31 (decimal 7729)
+   defining Unicode char U+1E37 (decimal 7735)
+   defining Unicode char U+1E8E (decimal 7822)
+   defining Unicode char U+1E8F (decimal 7823)
+   defining Unicode char U+1E43 (decimal 7747)
+   defining Unicode char U+1E45 (decimal 7749)
+   defining Unicode char U+1E47 (decimal 7751)
+   defining Unicode char U+1E5B (decimal 7771)
+   defining Unicode char U+1E63 (decimal 7779)
+   defining Unicode char U+1E6D (decimal 7789)
+   defining Unicode char U+1E90 (decimal 7824)
+   defining Unicode char U+1E91 (decimal 7825)
+   defining Unicode char U+1E9E (decimal 7838)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2022/06/07 v1.3c UTF-8 support
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+3008 (decimal 12296)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+3009 (decimal 12297)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FEFF (decimal 65279)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+FEFF (decimal 65279)
+))) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count336
-\U@D=\dimen294
+\babel@savecnt=\count374
+\U@D=\dimen305
 \l@unhyphenated=\language89
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read3
+\bbl@readstream=\read4
 LaTeX Info: Redefining \textlatin on input line 3986.
-\bbl@dirlevel=\count337
+\bbl@dirlevel=\count375
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
@@ -656,47 +1202,41 @@ ex
 Package babel Info: Importing font and identification data for brazilian
 (babel)             from babel-pt-BR.ini. Reported on input line 11.
 ) (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen295
-\WF@size=\dimen296
-\c@WF@wrappedlines=\count338
-\WF@box=\box76
-\WF@everypar=\toks48
+\wrapoverhang=\dimen306
+\WF@size=\dimen307
+\c@WF@wrappedlines=\count376
+\WF@box=\box82
+\WF@everypar=\toks51
 Package: wrapfig 2003/01/31  v 3.6
 )
 
 Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
-put line 10.
+put line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count339
-\mult@box=\box77
-\multicol@leftmargin=\dimen297
-\c@unbalance=\count340
-\c@collectmore=\count341
-\doublecol@number=\count342
-\multicoltolerance=\count343
-\multicolpretolerance=\count344
-\full@width=\dimen298
-\page@free=\dimen299
-\premulticols=\dimen300
-\postmulticols=\dimen301
-\multicolsep=\skip65
-\multicolbaselineskip=\skip66
-\partial@page=\box78
-\last@line=\box79
-\mc@boxedresult=\box80
-\maxbalancingoverflow=\dimen302
-\mult@rightbox=\box81
-\mult@grightbox=\box82
-\mult@firstbox=\box83
-\mult@gfirstbox=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
+\c@tracingmulticols=\count377
+\mult@box=\box83
+\multicol@leftmargin=\dimen308
+\c@unbalance=\count378
+\c@collectmore=\count379
+\doublecol@number=\count380
+\multicoltolerance=\count381
+\multicolpretolerance=\count382
+\full@width=\dimen309
+\page@free=\dimen310
+\premulticols=\dimen311
+\postmulticols=\dimen312
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box84
+\last@line=\box85
+\mc@boxedresult=\box86
+\maxbalancingoverflow=\dimen313
+\mult@rightbox=\box87
+\mult@grightbox=\box88
+\mult@firstbox=\box89
+\mult@gfirstbox=\box90
 \@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
@@ -727,15 +1267,21 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box118
 \@tempa=\box119
 \@tempa=\box120
-\c@minrows=\count345
-\c@columnbadness=\count346
-\c@finalcolumnbadness=\count347
-\last@try=\dimen303
-\multicolovershoot=\dimen304
-\multicolundershoot=\dimen305
-\mult@nat@firstbox=\box121
-\colbreak@box=\box122
-\mc@col@check@num=\count348
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\c@minrows=\count383
+\c@columnbadness=\count384
+\c@finalcolumnbadness=\count385
+\last@try=\dimen314
+\multicolovershoot=\dimen315
+\multicolundershoot=\dimen316
+\mult@nat@firstbox=\box127
+\colbreak@box=\box128
+\mc@col@check@num=\count386
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/syntonly.sty
 Package: syntonly 2017/06/30 v2.1e Standard LaTeX2e package
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/sha
@@ -744,15 +1290,15 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box123
+\pgfnodeparttextbox=\box129
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen306
-\pgf@nodesepend=\dimen307
+\pgf@nodesepstart=\dimen317
+\pgf@nodesepend=\dimen318
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -760,10 +1306,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/shar
 e/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen308
-\pgffor@skip=\dimen309
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@iter=\dimen319
+\pgffor@skip=\dimen320
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -771,33 +1317,33 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count349
-\pgfplotmarksize=\dimen310
+\pgf@plot@mark@count=\count387
+\pgfplotmarksize=\dimen321
 )
-\tikz@lastx=\dimen311
-\tikz@lasty=\dimen312
-\tikz@lastxsaved=\dimen313
-\tikz@lastysaved=\dimen314
-\tikz@lastmovetox=\dimen315
-\tikz@lastmovetoy=\dimen316
-\tikzleveldistance=\dimen317
-\tikzsiblingdistance=\dimen318
-\tikz@figbox=\box124
-\tikz@figbox@bg=\box125
-\tikz@tempbox=\box126
-\tikz@tempbox@bg=\box127
-\tikztreelevel=\count350
-\tikznumberofchildren=\count351
-\tikznumberofcurrentchild=\count352
-\tikz@fig@count=\count353
+\tikz@lastx=\dimen322
+\tikz@lasty=\dimen323
+\tikz@lastxsaved=\dimen324
+\tikz@lastysaved=\dimen325
+\tikz@lastmovetox=\dimen326
+\tikz@lastmovetoy=\dimen327
+\tikzleveldistance=\dimen328
+\tikzsiblingdistance=\dimen329
+\tikz@figbox=\box130
+\tikz@figbox@bg=\box131
+\tikz@tempbox=\box132
+\tikz@tempbox@bg=\box133
+\tikztreelevel=\count388
+\tikznumberofchildren=\count389
+\tikznumberofcurrentchild=\count390
+\tikz@fig@count=\count391
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count354
-\pgfmatrixcurrentcolumn=\count355
-\pgf@matrix@numberofcolumns=\count356
+\pgfmatrixcurrentrow=\count392
+\pgfmatrixcurrentcolumn=\count393
+\pgf@matrix@numberofcolumns=\count394
 )
-\tikz@expandcount=\count357
+\tikz@expandcount=\count395
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -809,16 +1355,16 @@ zlibrarydecorations.pathmorphing.code.tex
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen319
-\pgfdecoratedremainingdistance=\dimen320
-\pgfdecoratedinputsegmentcompleteddistance=\dimen321
-\pgfdecoratedinputsegmentremainingdistance=\dimen322
-\pgf@decorate@distancetomove=\dimen323
-\pgf@decorate@repeatstate=\count358
-\pgfdecorationsegmentamplitude=\dimen324
-\pgfdecorationsegmentlength=\dimen325
+\pgfdecoratedcompleteddistance=\dimen330
+\pgfdecoratedremainingdistance=\dimen331
+\pgfdecoratedinputsegmentcompleteddistance=\dimen332
+\pgfdecoratedinputsegmentremainingdistance=\dimen333
+\pgf@decorate@distancetomove=\dimen334
+\pgf@decorate@repeatstate=\count396
+\pgfdecorationsegmentamplitude=\dimen335
+\pgfdecorationsegmentlength=\dimen336
 )
-\tikz@lib@dec@box=\box128
+\tikz@lib@dec@box=\box134
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathmorphing.code.tex))
@@ -834,12 +1380,12 @@ exlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/sha
 re/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks51
-\t@pgfplots@tokb=\toks52
-\t@pgfplots@tokc=\toks53
-\pgfplots@tmpa=\dimen326
-\c@pgfplots@coordindex=\count359
-\c@pgfplots@scanlineindex=\count360
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen337
+\c@pgfplots@coordindex=\count397
+\c@pgfplots@scanlineindex=\count398
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -850,9 +1396,9 @@ gfsupp_loader.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks54
-\t@pgf@tokb=\toks55
-\t@pgf@tokc=\toks56
+\t@pgf@toka=\toks57
+\t@pgf@tokb=\toks58
+\t@pgf@tokc=\toks59
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pg
@@ -863,14 +1409,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count361
+\c@pgfplotsarray@tmp=\count399
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count362
-\t@pgfplotstable@a=\toks57
+\c@pgfplotstable@counta=\count400
+\t@pgfplotstable@a=\toks60
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -882,7 +1428,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count363
+\c@pgfplotslibrarysurf@no=\count401
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -911,13 +1457,13 @@ zlibrarydecorations.pathreplacing.code.tex
 decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count364
-\pgfplots@xmin@reg=\dimen327
-\pgfplots@xmax@reg=\dimen328
-\pgfplots@ymin@reg=\dimen329
-\pgfplots@ymax@reg=\dimen330
-\pgfplots@zmin@reg=\dimen331
-\pgfplots@zmax@reg=\dimen332
+\pgfplots@numplots=\count402
+\pgfplots@xmin@reg=\dimen338
+\pgfplots@xmax@reg=\dimen339
+\pgfplots@ymin@reg=\dimen340
+\pgfplots@ymax@reg=\dimen341
+\pgfplots@zmin@reg=\dimen342
+\pgfplots@zmax@reg=\dimen343
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -930,21 +1476,21 @@ File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen333
-\captionmargin=\dimen334
-\caption@leftmargin=\dimen335
-\caption@rightmargin=\dimen336
-\caption@width=\dimen337
-\caption@indent=\dimen338
-\caption@parindent=\dimen339
-\caption@hangindent=\dimen340
+\caption@tempdima=\dimen344
+\captionmargin=\dimen345
+\caption@leftmargin=\dimen346
+\caption@rightmargin=\dimen347
+\caption@width=\dimen348
+\caption@indent=\dimen349
+\caption@parindent=\dimen350
+\caption@hangindent=\dimen351
 Package caption Info: beamer document class detected.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
 e beamer document classes (AR)
 ))
-\c@caption@flags=\count365
-\c@continuedfloat=\count366
+\c@caption@flags=\count403
+\c@continuedfloat=\count404
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -953,35 +1499,38 @@ Package caption Info: wrapfig package is loaded.
 hare/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share
 /texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/te
 xlive/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texl
-ive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty))
-\c@nada=\count367
-\c@outline=\count368
-\c@afir=\count369
+ive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)) (/usr/share/tex
+live/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)
+\c@nada=\count405
+\c@outline=\count406
+\c@afir=\count407
+\c@casa=\count408
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count370
-\l__pdf_internal_box=\box129
-) (./edo.aux (./intro.aux) (./1a_ordem.aux) (./2a_ordem_linear.aux))
+\l__color_backend_stack_int=\count409
+\l__pdf_internal_box=\box135
+) (./edo.aux (./intro.aux) (./1a_ordem.aux) (./complexos.aux) (./2a_ordem_linea
+r.aux))
 \openout1 = `edo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1018,17 +1567,17 @@ LaTeX Font Info:    ... okay on input line 134.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count371
-\scratchdimen=\dimen341
-\scratchbox=\box130
-\nofMPsegments=\count372
-\nofMParguments=\count373
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count374
-\MPscratchDim=\dimen342
-\MPnumerator=\count375
-\makeMPintoPDFobject=\count376
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count410
+\scratchdimen=\dimen352
+\scratchbox=\box136
+\nofMPsegments=\count411
+\nofMParguments=\count412
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count413
+\MPscratchDim=\dimen353
+\MPnumerator=\count414
+\makeMPintoPDFobject=\count415
+\everyMPtoPDFconversion=\toks62
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1037,10 +1586,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 134.
+Package hyperref Info: Link coloring OFF on input line 142.
 (./edo.out) (./edo.out)
-\@outlinefile=\write5
-\openout5 = `edo.out'.
+\@outlinefile=\write7
+\openout7 = `edo.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -1067,29 +1616,37 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package newfloat Info: Trying Plan B...
+Package newfloat Info: `wrapfig' package detected.
+(./pythontex-files-edo/edo.pytxmcr)
+Package newfloat Info: New float `listing' with options `fileext=lopytx' on inp
+ut line 142.
+\c@listing=\count416
+\newfloat@ftype=\count417
+Package newfloat Info: float type `listing'=8 on input line 142.
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-(./edo.nav)
+(./edo.nav) (./pythontex-files-edo/edo.pytxpyg)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 139.
+(hyperref)                setting the option has no effect on input line 147.
 
-<sol-logistico-capa.png, id=59, 379.4175pt x 248.93pt>
+<sol-logistico-capa.png, id=63, 379.4175pt x 248.93pt>
 File: sol-logistico-capa.png Graphic file (type png)
 <use sol-logistico-capa.png>
-Package pdftex.def Info: sol-logistico-capa.png  used on input line 161.
+Package pdftex.def Info: sol-logistico-capa.png  used on input line 169.
 (pdftex.def)             Requested size: 151.7643pt x 99.57022pt.
 
-Overfull \vbox (23.1633pt too high) detected at line 161
+Overfull \vbox (23.1633pt too high) detected at line 169
  []
 
-<UFF_brasao.png, id=61, 607.26875pt x 683.55376pt>
+<UFF_brasao.png, id=65, 607.26875pt x 683.55376pt>
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 161.
+Package pdftex.def Info: UFF_brasao.png  used on input line 169.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [1
 
@@ -1102,7 +1659,7 @@ File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ))
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 168.
+Package pdftex.def Info: UFF_brasao.png  used on input line 176.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [2
 
@@ -1110,7 +1667,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 168.
 \openout2 = `intro.aux'.
 
 (./intro.tex
-<exemplo.png, id=139, 59.9841pt x 58.5387pt>
+<exemplo.png, id=143, 59.9841pt x 58.5387pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 26.
@@ -1171,7 +1728,7 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 47.
 [7
 
 ]
-<w-homework.png, id=344, 513.92pt x 452.69125pt>
+<w-homework.png, id=350, 513.92pt x 452.69125pt>
 File: w-homework.png Graphic file (type png)
 <use w-homework.png>
 Package pdftex.def Info: w-homework.png  used on input line 69.
@@ -1194,7 +1751,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 86.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<CD-1.png, id=416, 371.3875pt x 248.93pt>
+<CD-1.png, id=420, 371.3875pt x 248.93pt>
 File: CD-1.png Graphic file (type png)
 <use CD-1.png>
 Package pdftex.def Info: CD-1.png  used on input line 86.
@@ -1246,7 +1803,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 170.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<sol-ex-sep.png, id=604, 381.425pt x 358.33875pt>
+<sol-ex-sep.png, id=608, 381.425pt x 358.33875pt>
 File: sol-ex-sep.png Graphic file (type png)
 <use sol-ex-sep.png>
 Package pdftex.def Info: sol-ex-sep.png  used on input line 170.
@@ -1283,7 +1840,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 216.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<CD-2.png, id=725, 371.3875pt x 248.93pt>
+<CD-2.png, id=729, 371.3875pt x 248.93pt>
 File: CD-2.png Graphic file (type png)
 <use CD-2.png>
 Package pdftex.def Info: CD-2.png  used on input line 216.
@@ -1303,7 +1860,7 @@ File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 216.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-<CD-3.png, id=763, 371.3875pt x 248.93pt>
+<CD-3.png, id=767, 371.3875pt x 248.93pt>
 File: CD-3.png Graphic file (type png)
 <use CD-3.png>
 Package pdftex.def Info: CD-3.png  used on input line 216.
@@ -1405,27 +1962,81 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 463.
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 475.
+Package pdftex.def Info: UFF_brasao.png  used on input line 478.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [28
 
 ]
+\c@pytx@py@default@default@line=\count418
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 500.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 492.
+Package pdftex.def Info: UFF_brasao.png  used on input line 515.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [29
 
 ]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 531.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[30
+
+]
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 522.
+Package pdftex.def Info: exemplo.png  used on input line 562.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 522.
+Package pdftex.def Info: UFF_brasao.png  used on input line 562.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[30
+[31
+
+])
+\openout2 = `complexos.aux'.
+
+(./complexos.tex
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 19.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 19.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[32
+
+
+
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 41.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[33
+
+]
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 57.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 57.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[34
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 61.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[35
 
 ])
 \openout2 = `2a_ordem_linear.aux'.
@@ -1439,7 +2050,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 26.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[31
+[36
 
 
 
@@ -1453,7 +2064,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 53.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[32
+[37
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -1464,7 +2075,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 76.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[33
+[38
 
 ]
 File: w-homework.png Graphic file (type png)
@@ -1475,21 +2086,21 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 96.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[34
+[39
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 142.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[35
+[40
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 239.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[36
+[41
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -1500,7 +2111,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 257.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[37
+[42
 
 ]
 Overfull \vbox (0.2091pt too high) detected at line 382
@@ -1510,14 +2121,14 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 382.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[38
+[43
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 401.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[39
+[44
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -1528,7 +2139,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 417.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[40
+[45
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -1539,253 +2150,247 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 434.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[41
-
-]
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 497.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[42
-
-]
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 513.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[43
-
-]
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 528.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[44
-
-]
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 542.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[45
-
-]
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 553.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 553.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [46
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 564.
+Package pdftex.def Info: UFF_brasao.png  used on input line 492.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [47
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 575.
+Package pdftex.def Info: UFF_brasao.png  used on input line 507.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [48
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 607.
+Package pdftex.def Info: UFF_brasao.png  used on input line 521.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [49
 
 ]
-<osc-harm.png, id=1928, 433.62pt x 289.08pt>
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 532.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 532.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[50
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 543.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[51
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 554.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[52
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 586.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[53
+
+]
+<osc-harm.png, id=2097, 433.62pt x 289.08pt>
 File: osc-harm.png Graphic file (type png)
 <use osc-harm.png>
-Package pdftex.def Info: osc-harm.png  used on input line 613.
+Package pdftex.def Info: osc-harm.png  used on input line 592.
 (pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
 
-Overfull \hbox (4.60117pt too wide) in paragraph at lines 613--613
+Overfull \hbox (4.60117pt too wide) in paragraph at lines 592--592
  [] 
  []
 
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 613.
+Package pdftex.def Info: UFF_brasao.png  used on input line 592.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[50
+[54
 
  <./osc-harm.png>]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 633.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[51
-
-]
-<osc-super.png, id=1985, 720.5319pt x 285.4665pt>
-File: osc-super.png Graphic file (type png)
-<use osc-super.png>
-Package pdftex.def Info: osc-super.png  used on input line 676.
-(pdftex.def)             Requested size: 324.23636pt x 128.45872pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 676.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[52
-
- <./osc-super.png>]
-<osc-subarm.png, id=2014, 433.62pt x 289.08pt>
-File: osc-subarm.png Graphic file (type png)
-<use osc-subarm.png>
-Package pdftex.def Info: osc-subarm.png  used on input line 690.
-(pdftex.def)             Requested size: 195.1272pt x 130.0848pt.
-
-Overfull \vbox (6.20976pt too high) detected at line 690
- []
-
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 690.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[53
-
- <./osc-subarm.png>]
-<osc-critico.png, id=2044, 578.16pt x 289.08pt>
-File: osc-critico.png Graphic file (type png)
-<use osc-critico.png>
-Package pdftex.def Info: osc-critico.png  used on input line 703.
-(pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 703.
-(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[54
-
- <./osc-critico.png>]
-File: w-homework.png Graphic file (type png)
-<use w-homework.png>
-Package pdftex.def Info: w-homework.png  used on input line 714.
-(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
-File: UFF_brasao.png Graphic file (type png)
-<use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 714.
+Package pdftex.def Info: UFF_brasao.png  used on input line 612.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [55
 
 ]
+<osc-super.png, id=2155, 720.5319pt x 285.4665pt>
+File: osc-super.png Graphic file (type png)
+<use osc-super.png>
+Package pdftex.def Info: osc-super.png  used on input line 655.
+(pdftex.def)             Requested size: 324.23636pt x 128.45872pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 803.
+Package pdftex.def Info: UFF_brasao.png  used on input line 655.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [56
 
-]
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 813.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+ <./osc-super.png>]
+<osc-subarm.png, id=2185, 433.62pt x 289.08pt>
+File: osc-subarm.png Graphic file (type png)
+<use osc-subarm.png>
+Package pdftex.def Info: osc-subarm.png  used on input line 669.
+(pdftex.def)             Requested size: 195.1272pt x 130.0848pt.
+
+Overfull \vbox (6.20976pt too high) detected at line 669
+ []
+
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 813.
+Package pdftex.def Info: UFF_brasao.png  used on input line 669.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [57
 
-]
-<osc-for-ex1.png, id=2178, 578.16pt x 289.08pt>
-File: osc-for-ex1.png Graphic file (type png)
-<use osc-for-ex1.png>
-Package pdftex.def Info: osc-for-ex1.png  used on input line 819.
+ <./osc-subarm.png>]
+<osc-critico.png, id=2214, 578.16pt x 289.08pt>
+File: osc-critico.png Graphic file (type png)
+<use osc-critico.png>
+Package pdftex.def Info: osc-critico.png  used on input line 682.
 (pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 819.
+Package pdftex.def Info: UFF_brasao.png  used on input line 682.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [58
 
- <./osc-for-ex1.png>]
+ <./osc-critico.png>]
+File: w-homework.png Graphic file (type png)
+<use w-homework.png>
+Package pdftex.def Info: w-homework.png  used on input line 693.
+(pdftex.def)             Requested size: 17.98903pt x 15.84581pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 840.
+Package pdftex.def Info: UFF_brasao.png  used on input line 693.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [59
 
 ]
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 851.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 851.
+Package pdftex.def Info: UFF_brasao.png  used on input line 782.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [60
 
 ]
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 792.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 856.
+Package pdftex.def Info: UFF_brasao.png  used on input line 792.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [61
 
 ]
+<osc-for-ex1.png, id=2348, 578.16pt x 289.08pt>
+File: osc-for-ex1.png Graphic file (type png)
+<use osc-for-ex1.png>
+Package pdftex.def Info: osc-for-ex1.png  used on input line 798.
+(pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 877.
+Package pdftex.def Info: UFF_brasao.png  used on input line 798.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [62
 
-]
-File: exemplo.png Graphic file (type png)
-<use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 891.
-(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+ <./osc-for-ex1.png>]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 891.
+Package pdftex.def Info: UFF_brasao.png  used on input line 819.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [63
 
 ]
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
-Package pdftex.def Info: exemplo.png  used on input line 907.
+Package pdftex.def Info: exemplo.png  used on input line 830.
 (pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 907.
+Package pdftex.def Info: UFF_brasao.png  used on input line 830.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [64
 
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 835.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[65
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 856.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[66
+
+]
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 870.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 870.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[67
+
+]
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 886.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 886.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[68
+
 ])
-\tf@nav=\write6
-\openout6 = `edo.nav'.
+\tf@nav=\write8
+\openout8 = `edo.nav'.
 
-\tf@toc=\write7
-\openout7 = `edo.toc'.
+\tf@toc=\write9
+\openout9 = `edo.toc'.
 
-\tf@snm=\write8
-\openout8 = `edo.snm'.
+\tf@snm=\write10
+\openout10 = `edo.snm'.
 
-(./edo.aux (./intro.aux) (./1a_ordem.aux) (./2a_ordem_linear.aux))
+(./edo.aux (./intro.aux) (./1a_ordem.aux) (./complexos.aux) (./2a_ordem_linear.
+aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `edo.out' has not changed.
-(rerunfilecheck)             Checksum: 46BBA628E07D948DC64A88FEBF66BF51;1244.
+(rerunfilecheck)             Checksum: 3E2912A11498C3FC9EDF0ADA0088E351;1393.
  ) 
 Here is how much of TeX's memory you used:
- 39060 strings out of 474222
- 924485 string characters out of 5748733
+ 42109 strings out of 474222
+ 986976 string characters out of 5748733
  1947975 words of memory out of 5000000
- 60460 multiletter control sequences out of 15000+600000
+ 63426 multiletter control sequences out of 15000+600000
  571299 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,123p,726b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,123p,726b,2135s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -1805,10 +2410,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfss1440.pfb>
-Output written on edo.pdf (64 pages, 1446443 bytes).
+Output written on edo.pdf (68 pages, 1466822 bytes).
 PDF statistics:
- 2523 PDF objects out of 2984 (max. 8388607)
- 2026 compressed objects within 21 object streams
- 139 named destinations out of 1000 (max. 500000)
- 1820 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2695 PDF objects out of 2984 (max. 8388607)
+ 2161 compressed objects within 22 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 1996 words of extra memory for PDF output out of 10000 (max. 10000000)
 

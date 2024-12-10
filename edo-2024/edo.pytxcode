@@ -1,0 +1,44 @@
+=>PYTHONTEX#py#default#default#0#code####1a_ordem.tex#482#
+import sympy as sp
+
+
+t = sp.symbols('t')
+y = sp.symbols('y', cls=sp.Function)
+
+F=sp.exp(-t)
+coef=[t**3,4*t**2]
+
+eq=coef[0]*y(t).diff(t)+coef[1]*y(t)
+
+sol=sp.dsolve((eq-F)/coef[0], y(t) )
+
+pvi=sp.dsolve((eq-F)/coef[0], y(t), ics={y(-1): 0})
+=>PYTHONTEX#py#default#default#1#i####1a_ordem.tex#503#
+sp.latex(eq)
+=>PYTHONTEX#py#default#default#2#i####1a_ordem.tex#503#
+sp.latex(F)
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-edo
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|
