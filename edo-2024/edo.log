@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  10 DEC 2024 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.21)  10 DEC 2024 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2032,11 +2032,33 @@ Package pdftex.def Info: UFF_brasao.png  used on input line 57.
 [34
 
 ]
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 70.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
-Package pdftex.def Info: UFF_brasao.png  used on input line 61.
+Package pdftex.def Info: UFF_brasao.png  used on input line 70.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
 [35
+
+]
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 87.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[36
+
+]
+File: exemplo.png Graphic file (type png)
+<use exemplo.png>
+Package pdftex.def Info: exemplo.png  used on input line 102.
+(pdftex.def)             Requested size: 17.99536pt x 17.56174pt.
+File: UFF_brasao.png Graphic file (type png)
+<use UFF_brasao.png>
+Package pdftex.def Info: UFF_brasao.png  used on input line 102.
+(pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
+[37
 
 ])
 \openout2 = `2a_ordem_linear.aux'.
@@ -2050,7 +2072,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 26.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[36
+[38
 
 
 
@@ -2064,7 +2086,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 53.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[37
+[39
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2075,7 +2097,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 76.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[38
+[40
 
 ]
 File: w-homework.png Graphic file (type png)
@@ -2086,21 +2108,21 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 96.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[39
+[41
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 142.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[40
+[42
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 239.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[41
+[43
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2111,7 +2133,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 257.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[42
+[44
 
 ]
 Overfull \vbox (0.2091pt too high) detected at line 382
@@ -2121,14 +2143,14 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 382.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[43
+[45
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 401.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[44
+[46
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2139,7 +2161,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 417.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[45
+[47
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2150,28 +2172,28 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 434.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[46
+[48
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 492.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[47
+[49
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 507.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[48
+[50
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 521.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[49
+[51
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2182,31 +2204,31 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 532.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[50
+[52
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 543.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[51
+[53
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 554.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[52
+[54
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 586.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[53
+[55
 
 ]
-<osc-harm.png, id=2097, 433.62pt x 289.08pt>
+<osc-harm.png, id=2188, 433.62pt x 289.08pt>
 File: osc-harm.png Graphic file (type png)
 <use osc-harm.png>
 Package pdftex.def Info: osc-harm.png  used on input line 592.
@@ -2220,17 +2242,17 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 592.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[54
+[56
 
  <./osc-harm.png>]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 612.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[55
+[57
 
 ]
-<osc-super.png, id=2155, 720.5319pt x 285.4665pt>
+<osc-super.png, id=2246, 720.5319pt x 285.4665pt>
 File: osc-super.png Graphic file (type png)
 <use osc-super.png>
 Package pdftex.def Info: osc-super.png  used on input line 655.
@@ -2239,10 +2261,10 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 655.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[56
+[58
 
  <./osc-super.png>]
-<osc-subarm.png, id=2185, 433.62pt x 289.08pt>
+<osc-subarm.png, id=2275, 433.62pt x 289.08pt>
 File: osc-subarm.png Graphic file (type png)
 <use osc-subarm.png>
 Package pdftex.def Info: osc-subarm.png  used on input line 669.
@@ -2255,10 +2277,10 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 669.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[57
+[59
 
  <./osc-subarm.png>]
-<osc-critico.png, id=2214, 578.16pt x 289.08pt>
+<osc-critico.png, id=2305, 578.16pt x 289.08pt>
 File: osc-critico.png Graphic file (type png)
 <use osc-critico.png>
 Package pdftex.def Info: osc-critico.png  used on input line 682.
@@ -2267,7 +2289,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 682.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[58
+[60
 
  <./osc-critico.png>]
 File: w-homework.png Graphic file (type png)
@@ -2278,14 +2300,14 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 693.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[59
+[61
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 782.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[60
+[62
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2296,10 +2318,10 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 792.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[61
+[63
 
 ]
-<osc-for-ex1.png, id=2348, 578.16pt x 289.08pt>
+<osc-for-ex1.png, id=2439, 578.16pt x 289.08pt>
 File: osc-for-ex1.png Graphic file (type png)
 <use osc-for-ex1.png>
 Package pdftex.def Info: osc-for-ex1.png  used on input line 798.
@@ -2308,14 +2330,14 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 798.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[62
+[64
 
  <./osc-for-ex1.png>]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 819.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[63
+[65
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2326,21 +2348,21 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 830.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[64
+[66
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 835.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[65
+[67
 
 ]
 File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 856.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[66
+[68
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2351,7 +2373,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 870.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[67
+[69
 
 ]
 File: exemplo.png Graphic file (type png)
@@ -2362,7 +2384,7 @@ File: UFF_brasao.png Graphic file (type png)
 <use UFF_brasao.png>
 Package pdftex.def Info: UFF_brasao.png  used on input line 886.
 (pdftex.def)             Requested size: 18.21727pt x 20.50572pt.
-[68
+[70
 
 ])
 \tf@nav=\write8
@@ -2381,13 +2403,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `edo.out' has not changed.
-(rerunfilecheck)             Checksum: 3E2912A11498C3FC9EDF0ADA0088E351;1393.
+(rerunfilecheck)             Checksum: F88FAB242C9DDBE1403278CFBC55B0D3;1393.
  ) 
 Here is how much of TeX's memory you used:
- 42109 strings out of 474222
- 986976 string characters out of 5748733
+ 42135 strings out of 474222
+ 987836 string characters out of 5748733
  1947975 words of memory out of 5000000
- 63426 multiletter control sequences out of 15000+600000
+ 63448 multiletter control sequences out of 15000+600000
  571299 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,726b,2135s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2410,10 +2432,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfss1440.pfb>
-Output written on edo.pdf (68 pages, 1466822 bytes).
+Output written on edo.pdf (70 pages, 1479297 bytes).
 PDF statistics:
- 2695 PDF objects out of 2984 (max. 8388607)
- 2161 compressed objects within 22 object streams
- 148 named destinations out of 1000 (max. 500000)
- 1996 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2787 PDF objects out of 2984 (max. 8388607)
+ 2230 compressed objects within 23 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 2104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
